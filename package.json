@@ -4,7 +4,8 @@
   "description": "一个UI组件库",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/A-aronYang/Simpli/issues"
   },
-  "homepage": "https://github.com/A-aronYang/Simpli#readme"
+  "homepage": "https://github.com/A-aronYang/Simpli#readme",
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.63.3",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
 }
